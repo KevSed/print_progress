@@ -8,6 +8,4 @@ setup(name='print_progress',
       author_email='kevin.sedlaczek@tu-dortmund.de',
       license='GNU',
       packages=['print_progress'],
-      install_requires=[
-              'sys'],
       zip_safe=False)

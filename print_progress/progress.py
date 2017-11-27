@@ -22,6 +22,4 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
         sys.stdout.write('\n')
     sys.stdout.flush()
     
-# items = list(range(0, 18017))
-# le = len(items)
-# j = 0
+    return;

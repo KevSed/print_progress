@@ -1,11 +1,18 @@
 from setuptools import setup
 
-setup(name='print_progress',
-      version='0.1',
-      description='Print a progress bar for iterations and loops',
-      url='http://github.com/KevSed/features_from_phs',
-      author='Kevin Sedlaczek',
-      author_email='kevin.sedlaczek@tu-dortmund.de',
-      license='GNU',
-      packages=['print_progress'],
-      zip_safe=False)
+
+setup(
+    name='print_progress',
+    author='Kevin Sedlaczek',
+    author_email='kevin.sedlaczek@tu-dortmund.de',
+    description='Print a progress bar for iterations and loops',
+    license='MIT',
+    version='0.0.1',
+    packages=['print_progress'],
+    # install_requires=['sys'],
+    entry_points={
+                'console_scripts': [
+                    'print_progress=print_progress.__main__:main'
+                ]
+    }
+)

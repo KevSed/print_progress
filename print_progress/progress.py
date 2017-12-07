@@ -1,6 +1,8 @@
 import sys
 
-def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_length=50, fill='█'):
+
+def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_length=50,
+                   fill='█'):
     """
     Call in a loop to create terminal progress bar
     @params:
@@ -21,5 +23,5 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
     if iteration == total:
         sys.stdout.write('\n')
     sys.stdout.flush()
-    
+
     return;
